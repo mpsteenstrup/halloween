@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>start</title>
+    <style>
+        p {
+        color: white;
+        }
+    </style>
+</head>
+<body style="background-color:black;">
+
+<p>
+    5 røde roser jeg lagde på din grav,
+    6. lys tændt i nattens mørke hav.
+    4 ravne skriger fra træernes top,
+    4 skridt i mørket, jeg tør ikke stop’.
+    7 skygger danser, og natten bli’r sort,
+    7 sjæle lyser i mørket kort.
+    
+    9. klokkeslag lyder, natten er nær,
+    4 lys i tågen viser dig her.
+    2 skygger følger, i stilhed de går,
+    5 glemte sjæle hvisker, som vinden den rår,
+    3 damer prøver men de ikke får.
+</p>
+
+<input type="indtast" id="indtast" placeholder="kom videre">
+    <button onclick="check()">tryk - hvis du tør</button>
+
+    <p class="message" id="message"></p>
+
+    <script>
+        function check() {
+            const ord = document.getElementById("indtast").value;
+            window.location.href = ord + ".html";
+        }
+    </script>
+</body>
+</html>
